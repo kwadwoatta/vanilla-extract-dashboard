@@ -24,6 +24,6 @@
     "**/*.jsx",
     "**/*.ts",
     "**/*.tsx",
-    "src/app/data/menubar.data.tsx"
+    "../../apps/web-app/src/app/data/menubar.data.tsx"
   ]
 }

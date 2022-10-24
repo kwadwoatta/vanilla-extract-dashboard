@@ -14,7 +14,21 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@prince-assessment/components/accordion": [
+        "libs/components/src/lib/accordion/index.ts"
+      ],
+      "@prince-assessment/components/menu-bar": [
+        "libs/components/src/lib/menu-bar/index.ts"
+      ],
+      "@prince-assessment/components/header": [
+        "libs/components/src/lib/header/index.ts"
+      ],
+      "@prince-assessment/components/recents": [
+        "libs/components/src/lib/recents/index.ts"
+      ],
+      "@prince-assessment/styles": ["libs/styles/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
