@@ -1,9 +1,11 @@
 import { Header } from '@prince-assessment/components/header';
 import { MenuBar } from '@prince-assessment/components/menu-bar';
+import { MoneyInOutTabs } from '@prince-assessment/components/money-in-out-tabs';
+import { Recents } from '@prince-assessment/components/recents';
 import { vars } from '@prince-assessment/styles';
-import { Recents } from 'libs/components/src/lib/recents';
 import { grid, headerGridColumn, menuBarGridColumn } from './app.css';
 import { menuBarItems } from './data/menubar.data';
+import { moneyInOutTabs } from './data/money-in-out.data';
 import { recents } from './data/recents.data';
 
 export function App() {
@@ -21,8 +23,7 @@ export function App() {
 
       <div
         style={{
-          backgroundColor: 'black',
-          height: 413,
+          backgroundColor: vars.colors.surface,
           boxShadow: vars.shadows.tiny,
           borderRadius: 10,
           gridColumn: 'span 2',
@@ -31,12 +32,17 @@ export function App() {
 
       <div
         style={{
-          backgroundColor: 'gray',
+          backgroundColor: vars.colors.surface,
           height: 413,
           boxShadow: vars.shadows.tiny,
           borderRadius: 10,
         }}
-      ></div>
+      >
+        <MoneyInOutTabs
+          defaultValue={moneyInOutTabs.defaultValue}
+          tabs={moneyInOutTabs.tabs}
+        />
+      </div>
 
       <div
         style={{

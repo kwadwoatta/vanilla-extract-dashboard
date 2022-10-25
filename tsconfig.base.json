@@ -27,6 +27,15 @@
       "@prince-assessment/components/recents": [
         "libs/components/src/lib/recents/index.ts"
       ],
+      "@prince-assessment/components/tab": [
+        "libs/components/src/lib/tab/index.ts"
+      ],
+      "@prince-assessment/components/money-in-out-tabs": [
+        "libs/components/src/lib/money-in-out-tabs/index.ts"
+      ],
+      "@prince-assessment/components/table": [
+        "libs/components/src/lib/table/index.ts"
+      ],
       "@prince-assessment/styles": ["libs/styles/src/index.ts"]
     }
   },

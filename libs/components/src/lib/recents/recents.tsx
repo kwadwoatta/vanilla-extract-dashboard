@@ -33,7 +33,7 @@ export function Recents({ recents }: RecentsProps) {
     <div
       style={{
         backgroundColor: vars.colors.surface,
-        height: 413,
+        // height: 413,
         boxShadow: vars.shadows.tiny,
         borderRadius: 10,
         padding: '20px 24px',
@@ -45,69 +45,81 @@ export function Recents({ recents }: RecentsProps) {
       >
         Recents
       </p>
-      {recents.map(({ type, description, time }) => {
-        const Icon = icons[type];
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'space-between',
+          gap: 5,
+        }}
+      >
+        {recents.map(({ type, description, time }) => {
+          const Icon = icons[type];
 
-        return (
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'start',
-              justifyContent: 'start',
-            }}
-          >
+          return (
             <div
               style={{
                 display: 'flex',
-                flexDirection: 'column',
+                alignItems: 'start',
                 justifyContent: 'start',
-                alignItems: 'center',
-                gap: 4,
-                width: 24,
-                height: 82.25,
-                marginRight: 16,
-                paddingBottom: 14,
-                marginTop: -5,
               }}
             >
-              <Icon />
+              <div
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'start',
+                  alignItems: 'center',
+                  gap: 4,
+                  width: 24,
+                  height: 82.25,
+                  marginRight: 16,
+                  paddingBottom: 14,
+                  marginTop: -5,
+                }}
+              >
+                <Icon />
+
+                <div
+                  style={{
+                    width: 1,
+                    border: '2px dashed #EEF2F4',
+                    flexGrow: 1,
+                  }}
+                />
+              </div>
 
               <div
                 style={{
-                  width: 1,
-                  border: '2px dashed #EEF2F4',
+                  display: 'flex',
+                  justifyContent: 'space-between',
                   flexGrow: 1,
                 }}
-              />
-            </div>
-
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'space-between',
-                flexGrow: 1,
-              }}
-            >
-              <p
-                className={fontStyles.MANROPE_MED}
-                style={{
-                  color: vars.colors.onSurfaceVariant,
-                  width: 225,
-                  fontWeight: 600,
-                }}
               >
-                {description}
-              </p>
-              <p
-                className={fontStyles.MANROPE_SMALL}
-                style={{ fontWeight: 500, color: vars.colors.onSurfaceVariant }}
-              >
-                {time}
-              </p>
+                <p
+                  className={fontStyles.MANROPE_MED}
+                  style={{
+                    color: vars.colors.onSurfaceVariant,
+                    width: 225,
+                    fontWeight: 600,
+                  }}
+                >
+                  {description}
+                </p>
+                <p
+                  className={fontStyles.MANROPE_SMALL}
+                  style={{
+                    fontWeight: 500,
+                    color: vars.colors.onSurfaceVariant,
+                  }}
+                >
+                  {time}
+                </p>
+              </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
   );
 }

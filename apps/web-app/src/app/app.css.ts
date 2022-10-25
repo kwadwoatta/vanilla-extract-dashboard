@@ -11,7 +11,6 @@ export const headerGridColumn = style({
 });
 
 export const menuBarGridColumn = style({
-  // backgroundColor: 'green',
   gridRowStart: 1,
   gridRowEnd: 4,
   width: '100%',
@@ -22,4 +21,5 @@ export const grid = style({
   gridTemplateColumns: '248px repeat(3, 1fr)',
   rowGap: 28,
   columnGap: 28,
+  height: '100vh',
 });
