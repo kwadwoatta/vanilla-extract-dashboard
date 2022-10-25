@@ -1,9 +1,15 @@
 import { Header } from '@prince-assessment/components/header';
+import { LineChart } from '@prince-assessment/components/line-chart';
 import { MenuBar } from '@prince-assessment/components/menu-bar';
 import { MoneyInOutTabs } from '@prince-assessment/components/money-in-out-tabs';
 import { Recents } from '@prince-assessment/components/recents';
 import { vars } from '@prince-assessment/styles';
-import { grid, headerGridColumn, menuBarGridColumn } from './app.css';
+import {
+  grid,
+  headerGridColumn,
+  lineChartGrid,
+  menuBarGridColumn,
+} from './app.css';
 import { menuBarItems } from './data/menubar.data';
 import { moneyInOutTabs } from './data/money-in-out.data';
 import { recents } from './data/recents.data';
@@ -21,14 +27,9 @@ export function App() {
 
       <Recents recents={recents} />
 
-      <div
-        style={{
-          backgroundColor: vars.colors.surface,
-          boxShadow: vars.shadows.tiny,
-          borderRadius: 10,
-          gridColumn: 'span 2',
-        }}
-      ></div>
+      <div className={lineChartGrid}>
+        <LineChart />
+      </div>
 
       <div
         style={{

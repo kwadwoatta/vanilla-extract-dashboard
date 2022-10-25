@@ -23,3 +23,8 @@ export const grid = style({
   columnGap: 28,
   height: '100vh',
 });
+
+export const lineChartGrid = style({
+  gridColumn: 'span 2',
+  height: 413,
+});

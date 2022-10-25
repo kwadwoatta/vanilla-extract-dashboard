@@ -36,6 +36,9 @@
       "@prince-assessment/components/table": [
         "libs/components/src/lib/table/index.ts"
       ],
+      "@prince-assessment/components/line-chart": [
+        "libs/components/src/lib/line-chart/index.ts"
+      ],
       "@prince-assessment/styles": ["libs/styles/src/index.ts"]
     }
   },

@@ -1,9 +1,15 @@
-import { fontStyles, vars } from '@prince-assessment/styles';
 import { ReactNode } from 'react';
 import { ReactComponent as ContactSvg } from './assets/contact.svg';
 import { ReactComponent as ExpenseSvg } from './assets/expense.svg';
 import { ReactComponent as InventorySvg } from './assets/inventory.svg';
 import { ReactComponent as OfferSvg } from './assets/offer.svg';
+import {
+  descriptionStyle,
+  flexColumn,
+  heading,
+  recentsCard,
+  timeStyle,
+} from './recents.css';
 
 type RecentType =
   | 'EXPENSE'
@@ -30,29 +36,9 @@ export interface RecentsProps {
 
 export function Recents({ recents }: RecentsProps) {
   return (
-    <div
-      style={{
-        backgroundColor: vars.colors.surface,
-        // height: 413,
-        boxShadow: vars.shadows.tiny,
-        borderRadius: 10,
-        padding: '20px 24px',
-      }}
-    >
-      <p
-        className={fontStyles.MANROPE_XLARGE}
-        style={{ fontWeight: 600, marginBottom: 32 }}
-      >
-        Recents
-      </p>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'space-between',
-          gap: 5,
-        }}
-      >
+    <div className={recentsCard}>
+      <p className={heading}>Recents</p>
+      <div className={flexColumn}>
         {recents.map(({ type, description, time }) => {
           const Icon = icons[type];
 
@@ -96,25 +82,8 @@ export function Recents({ recents }: RecentsProps) {
                   flexGrow: 1,
                 }}
               >
-                <p
-                  className={fontStyles.MANROPE_MED}
-                  style={{
-                    color: vars.colors.onSurfaceVariant,
-                    width: 225,
-                    fontWeight: 600,
-                  }}
-                >
-                  {description}
-                </p>
-                <p
-                  className={fontStyles.MANROPE_SMALL}
-                  style={{
-                    fontWeight: 500,
-                    color: vars.colors.onSurfaceVariant,
-                  }}
-                >
-                  {time}
-                </p>
+                <p className={descriptionStyle}>{description}</p>
+                <p className={timeStyle}>{time}</p>
               </div>
             </div>
           );

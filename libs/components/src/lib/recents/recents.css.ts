@@ -1,0 +1,39 @@
+import { fontStyles, vars } from '@prince-assessment/styles';
+import { style } from '@vanilla-extract/css';
+
+export const recentsCard = style({
+  backgroundColor: vars.colors.surface,
+  height: 413,
+  boxShadow: vars.shadows.tiny,
+  borderRadius: 10,
+  padding: '20px 24px',
+});
+
+export const heading = style([
+  fontStyles.MANROPE_XLARGE,
+  {
+    fontWeight: 600,
+    marginBottom: 32,
+  },
+]);
+
+export const flexColumn = style({
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'space-between',
+  gap: 5,
+});
+
+export const descriptionStyle = style([
+  fontStyles.MANROPE_MED,
+  {
+    color: vars.colors.onSurfaceVariant,
+    width: 225,
+    fontWeight: 600,
+  },
+]);
+
+export const timeStyle = style([
+  fontStyles.MANROPE_SMALL,
+  { fontWeight: 500, color: vars.colors.onSurfaceVariant },
+]);
