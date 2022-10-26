@@ -51,15 +51,18 @@ export const tabsPrimitiveContent = style({
   outline: 'none',
 });
 
-export const box = style({
+export const moneyInOutTabCard = style({
   display: 'flex',
   flexDirection: 'column',
 
-  width: '100%',
+  // width: '100%',
   backgroundColor: vars.colors.surface,
   maxHeight: 413,
   boxShadow: vars.shadows.tiny,
   borderRadius: 10,
+  marginLeft: 28,
+  marginRight: 14,
+  marginBottom: 36,
 });
 
 export const flex = style({ display: 'flex' });

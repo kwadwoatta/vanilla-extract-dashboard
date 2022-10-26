@@ -6,6 +6,7 @@ export function Header() {
       style={{
         backgroundColor: vars.colors.surface,
         height: '100%',
+        maxWidth: '100vw',
         padding: '0 28px',
         margin: 0,
         display: 'flex',

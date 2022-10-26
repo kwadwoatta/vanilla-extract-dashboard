@@ -6,25 +6,28 @@ export const headerGridColumn = style({
   gridColumnEnd: 5,
   backgroundColor: 'red',
   height: 64,
-  width: '100vw - 248px',
-  marginLeft: -28,
+  width: '100%',
+  // marginLeft: -28,
 });
 
 export const menuBarGridColumn = style({
   gridRowStart: 1,
   gridRowEnd: 4,
   width: '100%',
+  height: '100%',
 });
 
 export const grid = style({
   display: 'grid',
   gridTemplateColumns: '248px repeat(3, 1fr)',
-  rowGap: 28,
-  columnGap: 28,
-  height: '100vh',
+  // rowGap: 28,
+  // columnGap: 28,
+  height: '100%',
 });
 
 export const lineChartGrid = style({
   gridColumn: 'span 2',
   maxHeight: 413,
+  marginLeft: 14,
+  marginRight: 28,
 });

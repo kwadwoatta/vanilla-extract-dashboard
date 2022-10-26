@@ -4,7 +4,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '../tab';
 import { Table } from '../table';
 import { ReactComponent as MoneyInSvg } from './assets/money-in.svg';
 import {
-  box,
+  moneyInOutTabCard,
   tabsPrimitiveContent,
   tabsPrimitiveList,
   tabsPrimitiveRoot,
@@ -28,7 +28,7 @@ export function MoneyInOutTabCard({
   tabs,
 }: MoneyInOutTabCardProps) {
   return (
-    <div className={box}>
+    <div className={moneyInOutTabCard}>
       <Tabs defaultValue={defaultValue} className={tabsPrimitiveRoot}>
         <TabsList aria-label="Transactions" className={tabsPrimitiveList}>
           {tabs.map(({ value, triggerLabel, triggerSubLabel }) => (
