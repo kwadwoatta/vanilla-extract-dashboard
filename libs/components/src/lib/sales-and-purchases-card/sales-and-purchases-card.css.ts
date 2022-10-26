@@ -3,7 +3,7 @@ import { style } from '@vanilla-extract/css';
 
 export const salesAndPurchasesCard = style({
   backgroundColor: vars.colors.surface,
-  height: 413,
+  maxHeight: 413,
   boxShadow: vars.shadows.tiny,
   borderRadius: 10,
   display: 'flex',

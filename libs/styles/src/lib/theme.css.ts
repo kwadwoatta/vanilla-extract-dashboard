@@ -26,4 +26,7 @@ export const vars = createGlobalTheme(':root', {
     tiny: '0px 1px 2px rgba(0, 0, 0, 0.1)',
     minute: '0px 1px 2px rgba(0, 0, 0, 0.04)',
   },
+  borders: {
+    border: '1px solid #EEF2F4',
+  },
 });

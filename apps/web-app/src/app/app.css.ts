@@ -26,5 +26,5 @@ export const grid = style({
 
 export const lineChartGrid = style({
   gridColumn: 'span 2',
-  height: 413,
+  maxHeight: 413,
 });

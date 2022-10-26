@@ -12,6 +12,7 @@ import { ReactNode } from 'react';
 import AccountSelector from '../account-selector/account-selector';
 
 import SearchInput from '../search-input/search-input';
+import { ReactComponent as ChevronDownSvg } from './assets/chevron-down.svg';
 import { menuBarContainer } from './menu-bar.css';
 
 export interface MenuBarItem {
@@ -71,22 +72,7 @@ export function MenuBar({ menuBarItems }: MenuBarProps) {
                     <p className={fontStyles.MANROPE_MED}>{menuBarItemLabel}</p>
                   </div>
                   {subMenu && subMenu.length > 0 && (
-                    <svg
-                      width="20"
-                      height="20"
-                      viewBox="0 0 20 20"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className={chevronDownIconStyle}
-                      aria-hidden
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M5.52859 7.52861C5.78894 7.26826 6.21105 7.26826 6.4714 7.52861L10 11.0572L13.5286 7.52861C13.7889 7.26826 14.2111 7.26826 14.4714 7.52861C14.7318 7.78896 14.7318 8.21107 14.4714 8.47141L10.4714 12.4714C10.2111 12.7318 9.78894 12.7318 9.52859 12.4714L5.52859 8.47141C5.26824 8.21107 5.26824 7.78896 5.52859 7.52861Z"
-                        fill="currentColor"
-                      />
-                    </svg>
+                    <ChevronDownSvg className={chevronDownIconStyle} />
                   )}
                 </AccordionTrigger>
                 {subMenu &&

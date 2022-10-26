@@ -4,7 +4,7 @@ import { MenuBar } from '@prince-assessment/components/menu-bar';
 import { MoneyInOutTabCard } from '@prince-assessment/components/money-in-out-tab-card';
 import { Recents } from '@prince-assessment/components/recents';
 import { SalesAndPurchasesCard } from '@prince-assessment/components/sales-and-purchases-card';
-import { vars } from '@prince-assessment/styles';
+import BarChartCard from 'libs/components/src/lib/bar-chart-card/bar-chart-card';
 import {
   grid,
   headerGridColumn,
@@ -39,14 +39,7 @@ export function App() {
 
       <SalesAndPurchasesCard />
 
-      <div
-        style={{
-          backgroundColor: 'orange',
-          height: 413,
-          boxShadow: vars.shadows.tiny,
-          borderRadius: 10,
-        }}
-      ></div>
+      <BarChartCard />
     </div>
   );
 }

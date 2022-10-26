@@ -4,10 +4,14 @@ import { ReactComponent as ExpenseSvg } from './assets/expense.svg';
 import { ReactComponent as InventorySvg } from './assets/inventory.svg';
 import { ReactComponent as OfferSvg } from './assets/offer.svg';
 import {
+  column,
+  dashedLine,
   descriptionStyle,
   flexColumn,
   heading,
   recentsCard,
+  row1,
+  row2,
   timeStyle,
 } from './recents.css';
 
@@ -43,45 +47,14 @@ export function Recents({ recents }: RecentsProps) {
           const Icon = icons[type];
 
           return (
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'start',
-                justifyContent: 'start',
-              }}
-            >
-              <div
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'start',
-                  alignItems: 'center',
-                  gap: 4,
-                  width: 24,
-                  height: 82.25,
-                  marginRight: 16,
-                  paddingBottom: 14,
-                  marginTop: -5,
-                }}
-              >
+            <div className={row1}>
+              <div className={column}>
                 <Icon />
 
-                <div
-                  style={{
-                    width: 1,
-                    border: '2px dashed #EEF2F4',
-                    flexGrow: 1,
-                  }}
-                />
+                <div className={dashedLine} />
               </div>
 
-              <div
-                style={{
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  flexGrow: 1,
-                }}
-              >
+              <div className={row2}>
                 <p className={descriptionStyle}>{description}</p>
                 <p className={timeStyle}>{time}</p>
               </div>

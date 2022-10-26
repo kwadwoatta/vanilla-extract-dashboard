@@ -45,6 +45,9 @@
       "@prince-assessment/components/sales-and-purchases-card": [
         "libs/components/src/lib/sales-and-purchases-card/index.ts"
       ],
+      "@prince-assessment/components/bar-chart-card": [
+        "libs/components/src/lib/bar-chart-card/index.ts"
+      ],
       "@prince-assessment/styles": ["libs/styles/src/index.ts"]
     }
   },

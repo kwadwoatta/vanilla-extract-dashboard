@@ -57,7 +57,7 @@ export const box = style({
 
   width: '100%',
   backgroundColor: vars.colors.surface,
-  height: 413,
+  maxHeight: 413,
   boxShadow: vars.shadows.tiny,
   borderRadius: 10,
 });
