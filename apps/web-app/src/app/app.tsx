@@ -10,7 +10,7 @@ import {
   fullPageRow,
   grid,
   hundredByHundredPercentColumn,
-  lineChartGrid,
+  span2,
 } from './app.css';
 import { menuBarItems } from './data/menubar.data';
 import { moneyInOutTabs } from './data/money-in-out.data';
@@ -27,7 +27,7 @@ export function App() {
           <div className={grid}>
             <Recents recents={recents} />
 
-            <div className={lineChartGrid}>
+            <div className={span2}>
               <LineChart />
             </div>
 

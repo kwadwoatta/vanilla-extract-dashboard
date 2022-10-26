@@ -26,7 +26,7 @@ export const grid = style({
   padding: 28,
 });
 
-export const lineChartGrid = style({
+export const span2 = style({
   gridColumn: 'span 2',
 });
 
