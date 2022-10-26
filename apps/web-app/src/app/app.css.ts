@@ -23,7 +23,7 @@ export const grid = style({
   gap: 28,
   maxWidth: 'calc(100vw - 248px)',
   overflow: 'scroll',
-  margin: 28,
+  padding: 28,
 });
 
 export const lineChartGrid = style({
