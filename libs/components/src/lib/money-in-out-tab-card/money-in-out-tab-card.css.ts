@@ -54,8 +54,12 @@ export const tabsPrimitiveContent = style({
 export const box = style({
   display: 'flex',
   flexDirection: 'column',
-  height: '100%',
+
   width: '100%',
+  backgroundColor: vars.colors.surface,
+  height: 413,
+  boxShadow: vars.shadows.tiny,
+  borderRadius: 10,
 });
 
 export const flex = style({ display: 'flex' });

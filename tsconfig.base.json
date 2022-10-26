@@ -30,14 +30,20 @@
       "@prince-assessment/components/tab": [
         "libs/components/src/lib/tab/index.ts"
       ],
-      "@prince-assessment/components/money-in-out-tabs": [
-        "libs/components/src/lib/money-in-out-tabs/index.ts"
+      "@prince-assessment/components/money-in-out-tab-card": [
+        "libs/components/src/lib/money-in-out-tab-card/index.ts"
       ],
       "@prince-assessment/components/table": [
         "libs/components/src/lib/table/index.ts"
       ],
       "@prince-assessment/components/line-chart": [
         "libs/components/src/lib/line-chart/index.ts"
+      ],
+      "@prince-assessment/components/doughnut-chart": [
+        "libs/components/src/lib/doughnut-chart/index.ts"
+      ],
+      "@prince-assessment/components/sales-and-purchases-card": [
+        "libs/components/src/lib/sales-and-purchases-card/index.ts"
       ],
       "@prince-assessment/styles": ["libs/styles/src/index.ts"]
     }

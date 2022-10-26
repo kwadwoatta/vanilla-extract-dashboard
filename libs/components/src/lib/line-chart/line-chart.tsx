@@ -80,7 +80,7 @@ export const data: ChartData<'line', number[], string> = {
   labels,
   datasets: [
     {
-      label: 'Dataset 1',
+      label: 'Sales',
       data: labels.map(() => faker.datatype.number({ min: 1, max: 10 })),
       borderColor: '#398AFA',
       fill: 'start',
@@ -109,7 +109,7 @@ export const data: ChartData<'line', number[], string> = {
       pointHitRadius: 10,
     },
     {
-      label: 'Dataset 2',
+      label: 'Purchases',
       data: labels.map(() => faker.datatype.number({ min: 1, max: 10 })),
       borderColor: '#9585F4',
       fill: 'start',

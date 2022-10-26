@@ -15,12 +15,12 @@ export const button = style({
 });
 
 export const from = style([
-  fontStyles.MANROPE_SMALL,
+  fontStyles.MANROPE_MED,
   { color: vars.colors.onSurfaceVariant, fontWeight: 600 },
 ]);
 
 export const cashOnHand = style([
-  fontStyles.MANROPE_SMALL,
+  fontStyles.MANROPE_MED,
   {
     color: vars.colors.onSurface,
     fontWeight: 700,

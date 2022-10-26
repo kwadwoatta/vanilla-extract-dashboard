@@ -1,7 +1,7 @@
 import { fonts, vars } from '@prince-assessment/styles';
 import { globalFontFace, globalStyle } from '@vanilla-extract/css';
 
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file */
 globalStyle('body', {
   backgroundColor: vars.colors.background,
 });
@@ -25,4 +25,5 @@ globalStyle('body, p, strong, h1, h2, h3, h4, h5, h6', {
   fontFamily: 'Manrope',
   fontVariationSettings: `"wght" ${fonts.MANROPE.wghts[400]}`,
   color: vars.colors.onSurface,
+  fontSize: 14,
 });

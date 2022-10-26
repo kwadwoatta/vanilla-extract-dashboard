@@ -12,9 +12,9 @@ import {
   tabsTriggerIcon,
   tabsTriggerLabelContainer,
   tabsTriggerLabelText,
-} from './money-in-out-tabs.css';
+} from './money-in-out-tab-card.css';
 
-export interface MoneyInOutTabsProps {
+export interface MoneyInOutTabCardProps {
   defaultValue: string;
   tabs: {
     value: string;
@@ -23,7 +23,10 @@ export interface MoneyInOutTabsProps {
   }[];
 }
 
-export function MoneyInOutTabs({ defaultValue, tabs }: MoneyInOutTabsProps) {
+export function MoneyInOutTabCard({
+  defaultValue,
+  tabs,
+}: MoneyInOutTabCardProps) {
   return (
     <div className={box}>
       <Tabs defaultValue={defaultValue} className={tabsPrimitiveRoot}>
@@ -66,4 +69,4 @@ export function MoneyInOutTabs({ defaultValue, tabs }: MoneyInOutTabsProps) {
   );
 }
 
-export default MoneyInOutTabs;
+export default MoneyInOutTabCard;

@@ -1,8 +1,9 @@
 import { Header } from '@prince-assessment/components/header';
 import { LineChart } from '@prince-assessment/components/line-chart';
 import { MenuBar } from '@prince-assessment/components/menu-bar';
-import { MoneyInOutTabs } from '@prince-assessment/components/money-in-out-tabs';
+import { MoneyInOutTabCard } from '@prince-assessment/components/money-in-out-tab-card';
 import { Recents } from '@prince-assessment/components/recents';
+import { SalesAndPurchasesCard } from '@prince-assessment/components/sales-and-purchases-card';
 import { vars } from '@prince-assessment/styles';
 import {
   grid,
@@ -31,28 +32,12 @@ export function App() {
         <LineChart />
       </div>
 
-      <div
-        style={{
-          backgroundColor: vars.colors.surface,
-          height: 413,
-          boxShadow: vars.shadows.tiny,
-          borderRadius: 10,
-        }}
-      >
-        <MoneyInOutTabs
-          defaultValue={moneyInOutTabs.defaultValue}
-          tabs={moneyInOutTabs.tabs}
-        />
-      </div>
+      <MoneyInOutTabCard
+        defaultValue={moneyInOutTabs.defaultValue}
+        tabs={moneyInOutTabs.tabs}
+      />
 
-      <div
-        style={{
-          backgroundColor: 'yellow',
-          height: 413,
-          boxShadow: vars.shadows.tiny,
-          borderRadius: 10,
-        }}
-      ></div>
+      <SalesAndPurchasesCard />
 
       <div
         style={{
