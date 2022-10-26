@@ -1,10 +1,8 @@
-# 🌐 prince-assessment
+# 📝 prince-assessment
 
-**An assessment to test my ability to build and compose components.**
+**An assessment to test my ability to build and compose components.** [Design file](https://www.figma.com/file/tdcXC7swYiVefmK2FnsIUo/Untitled?node-id=0%3A46)
 
----
-
-Libraries:
+## Libraries:
 
 🧰 &nbsp; [NX](https://nx.dev/) — Monorepo manager
 
@@ -18,4 +16,11 @@ Libraries:
 
 🏓 &nbsp; [Tanstack Table](https://tanstack.com/table/v8) - Headless table
 
----
+## Quickstart
+
+```sh
+# install packages
+yarn install
+
+# to run
+npx nx run web-app:serve 
