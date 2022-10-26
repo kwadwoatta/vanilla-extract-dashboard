@@ -11,9 +11,6 @@ export const barChartCardContainer = style({
   display: 'flex',
   flexDirection: 'column',
   gap: 14,
-  marginLeft: 14,
-  marginRight: 28,
-  marginBottom: 36,
 });
 
 export const label = style({

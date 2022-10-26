@@ -144,10 +144,12 @@ export function LineChart() {
   return (
     <div
       style={{
-        height: '100%',
+        minHeight: 413,
         backgroundColor: vars.colors.surface,
         boxShadow: vars.shadows.tiny,
         borderRadius: 10,
+        display: 'flex',
+        flexDirection: 'column',
       }}
     >
       <div
@@ -210,7 +212,7 @@ export function LineChart() {
           <ChevronDownSvg />
         </button>
       </div>
-      <div className={lineContainer}>
+      <div style={{ flexGrow: 1 }} className={lineContainer}>
         <Line options={options} data={data} />
       </div>
     </div>

@@ -6,10 +6,11 @@ import { MoneyInOutTabCard } from '@prince-assessment/components/money-in-out-ta
 import { Recents } from '@prince-assessment/components/recents';
 import { SalesAndPurchasesCard } from '@prince-assessment/components/sales-and-purchases-card';
 import {
+  flexibleColumn,
+  fullPageRow,
   grid,
-  headerGridColumn,
+  hundredByHundredPercentColumn,
   lineChartGrid,
-  menuBarGridColumn,
 } from './app.css';
 import { menuBarItems } from './data/menubar.data';
 import { moneyInOutTabs } from './data/money-in-out.data';
@@ -17,29 +18,30 @@ import { recents } from './data/recents.data';
 
 export function App() {
   return (
-    <div className={grid}>
-      <div className={menuBarGridColumn}>
-        <MenuBar menuBarItems={menuBarItems} />
-      </div>
-
-      <div className={headerGridColumn}>
+    <div className={fullPageRow}>
+      <MenuBar menuBarItems={menuBarItems} />
+      <div className={hundredByHundredPercentColumn}>
         <Header />
+
+        <div className={flexibleColumn}>
+          <div className={grid}>
+            <Recents recents={recents} />
+
+            <div className={lineChartGrid}>
+              <LineChart />
+            </div>
+
+            <MoneyInOutTabCard
+              defaultValue={moneyInOutTabs.defaultValue}
+              tabs={moneyInOutTabs.tabs}
+            />
+
+            <SalesAndPurchasesCard />
+
+            <BarChartCard />
+          </div>
+        </div>
       </div>
-
-      <Recents recents={recents} />
-
-      <div className={lineChartGrid}>
-        <LineChart />
-      </div>
-
-      <MoneyInOutTabCard
-        defaultValue={moneyInOutTabs.defaultValue}
-        tabs={moneyInOutTabs.tabs}
-      />
-
-      <SalesAndPurchasesCard />
-
-      <BarChartCard />
     </div>
   );
 }

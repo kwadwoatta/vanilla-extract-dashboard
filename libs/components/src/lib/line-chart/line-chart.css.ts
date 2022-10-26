@@ -30,5 +30,5 @@ export const cashOnHand = style([
 
 export const lineContainer = style({
   position: 'relative',
-  height: 'calc(100% - 130px)',
+  height: '100%',
 });

@@ -19,15 +19,32 @@ export const menuBarGridColumn = style({
 
 export const grid = style({
   display: 'grid',
-  gridTemplateColumns: '248px repeat(3, 1fr)',
-  // rowGap: 28,
-  // columnGap: 28,
-  height: '100%',
+  gridTemplateColumns: 'repeat(3, 1fr)',
+  gap: 28,
+  maxWidth: 'calc(100vw - 248px)',
+  overflow: 'scroll',
+  margin: 28,
 });
 
 export const lineChartGrid = style({
   gridColumn: 'span 2',
-  maxHeight: 413,
-  marginLeft: 14,
-  marginRight: 28,
+});
+
+export const fullPageRow = style({
+  display: 'flex',
+  width: '100vw',
+  height: '100vh',
+});
+
+export const hundredByHundredPercentColumn = style({
+  display: 'flex',
+  flexDirection: 'column',
+  width: '100%',
+  height: '100%',
+});
+
+export const flexibleColumn = style({
+  display: 'flex',
+  flexDirection: 'column',
+  maxHeight: 'calc(100vh - 64px)',
 });

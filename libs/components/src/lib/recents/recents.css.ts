@@ -4,12 +4,12 @@ import { style } from '@vanilla-extract/css';
 export const recentsCard = style({
   backgroundColor: vars.colors.surface,
   maxHeight: 413,
-  minWidth: 384,
+  // minWidth: 384,
   boxShadow: vars.shadows.tiny,
   borderRadius: 10,
   padding: '20px 24px',
-  marginLeft: 28,
-  marginRight: 14,
+  // marginLeft: 28,
+  // marginRight: 14,
 });
 
 export const heading = style([

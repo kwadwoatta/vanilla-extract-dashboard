@@ -11,9 +11,6 @@ export const salesAndPurchasesCard = style({
   alignItems: 'center',
   gap: 23,
   padding: '20px 28px',
-  marginLeft: 14,
-  marginRight: 14,
-  marginBottom: 36,
 });
 
 export const doughnutChartContainer = style({
