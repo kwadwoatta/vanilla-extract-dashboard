@@ -1,10 +1,10 @@
+import { BarChartCard } from '@prince-assessment/components/bar-chart-card';
 import { Header } from '@prince-assessment/components/header';
 import { LineChart } from '@prince-assessment/components/line-chart';
 import { MenuBar } from '@prince-assessment/components/menu-bar';
 import { MoneyInOutTabCard } from '@prince-assessment/components/money-in-out-tab-card';
 import { Recents } from '@prince-assessment/components/recents';
 import { SalesAndPurchasesCard } from '@prince-assessment/components/sales-and-purchases-card';
-import BarChartCard from 'libs/components/src/lib/bar-chart-card/bar-chart-card';
 import {
   grid,
   headerGridColumn,

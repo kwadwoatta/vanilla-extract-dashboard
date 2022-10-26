@@ -10,7 +10,7 @@ import {
 } from './bar-chart-card.css';
 import { data, options } from './bar-chart-card.data';
 
-function BarChartCard() {
+export function BarChartCard() {
   return (
     <div className={barChartCardContainer}>
       <p className={label}>
