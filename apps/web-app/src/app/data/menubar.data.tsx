@@ -26,12 +26,8 @@ export const menuBarItems: MenuBarItem[] = [
       {
         route: '/',
         onClick: () => ({}),
-        subMenuBarItemLabel: '',
-      },
-      {
-        route: '/',
-        onClick: () => ({}),
-        subMenuBarItemLabel: '',
+        subMenuBarItemLabel:
+          '1.  Yes. It adheres to the WAI-ARIA design pattern.',
       },
     ],
   },
@@ -40,7 +36,6 @@ export const menuBarItems: MenuBarItem[] = [
     menuBarItemIcon: <PurchasesSvg className={menuItemIconStyle} />,
     route: '/',
     onClick: () => ({}),
-    subMenu: [],
   },
   {
     menuBarItemLabel: 'Financial',
@@ -79,12 +74,14 @@ export const menuBarItems: MenuBarItem[] = [
       {
         route: '/',
         onClick: () => ({}),
-        subMenuBarItemLabel: '',
+        subMenuBarItemLabel:
+          '1.  Yes. It adheres to the WAI-ARIA design pattern.',
       },
       {
         route: '/',
         onClick: () => ({}),
-        subMenuBarItemLabel: '',
+        subMenuBarItemLabel:
+          '2.  Yes. It adheres to the WAI-ARIA design pattern.',
       },
     ],
   },
