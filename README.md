@@ -1,6 +1,6 @@
 # 📝 prince-assessment
 
-**An assessment to test my ability to build and compose components.** [Design file](https://www.figma.com/file/tdcXC7swYiVefmK2FnsIUo/Untitled?node-id=0%3A46)
+**An assessment to test my ability to build and compose components.** [Design file](https://www.figma.com/file/ogmqYR5Quhaz71cRo58I8c/assessment-design-file?node-id=0%3A46)
 
 ## Libraries:
 
