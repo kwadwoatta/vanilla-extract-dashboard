@@ -2,7 +2,21 @@
 
 **An assessment to test my ability to build and compose components.** [Design file](https://www.figma.com/file/ogmqYR5Quhaz71cRo58I8c/assessment-design-file?node-id=0%3A46)
 
-## Libraries:
+### About this repo
+
+```sh
+prince-assessment/
+├── apps                        
+|   └── web-app                 # Webstie
+|
+└── libs/
+    └── components/
+        └── src/
+            └── lib/            # Components for @prince-assessment/components package
+                └── [component] # Individual components
+```
+
+### Libraries
 
 🧰 &nbsp; [NX](https://nx.dev/) — Monorepo manager
 
@@ -16,7 +30,7 @@
 
 🏓 &nbsp; [Tanstack Table](https://tanstack.com/table/v8) - Headless table
 
-## Quickstart
+### Install dependencies and run app
 
 ```sh
 # install packages
