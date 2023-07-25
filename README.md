@@ -1,6 +1,6 @@
 # 📝 UI dashboard exploration with NX, Vanilla Extract & Radix UI
 
-**An assessment to test my ability to build and compose components.** [Design file](https://www.figma.com/file/ogmqYR5Quhaz71cRo58I8c/assessment-design-file?node-id=0%3A46)
+**Design File ->.** [Design file](https://www.figma.com/file/ogmqYR5Quhaz71cRo58I8c/assessment-design-file?node-id=0%3A46)
 
 ### About this repo
 
