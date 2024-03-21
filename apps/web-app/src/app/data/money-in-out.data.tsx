@@ -2,7 +2,7 @@ import {
   MoneyInOutTabCardProps,
   tabsTriggerAmount,
   tabsTriggerAmountSpan,
-} from '@prince-assessment/components/money-in-out-tab-card';
+} from '@/components/money-in-out-tab-card';
 
 export const moneyInOutTabs: MoneyInOutTabCardProps = {
   defaultValue: 'tab1',

@@ -1,5 +1,5 @@
-import { Recent } from '@prince-assessment/components/recents';
-import { vars } from '@prince-assessment/styles';
+import { Recent } from '@/components/recents';
+import { vars } from '@/styles';
 
 export const recents: Recent[] = [
   {

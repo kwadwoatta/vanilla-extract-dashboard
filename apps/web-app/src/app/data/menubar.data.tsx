@@ -1,5 +1,5 @@
-import { menuItemIconStyle } from '@prince-assessment/components/accordion';
-import { MenuBarItem } from '@prince-assessment/components/menu-bar';
+import { menuItemIconStyle } from '@/components/accordion';
+import { MenuBarItem } from '@/components/menu-bar';
 import { ReactComponent as AssetsSvg } from '../../assets/svg/assets.svg';
 import { ReactComponent as ContactsSvg } from '../../assets/svg/contacts.svg';
 import { ReactComponent as FinancialSvg } from '../../assets/svg/financial.svg';
@@ -26,8 +26,7 @@ export const menuBarItems: MenuBarItem[] = [
       {
         route: '/',
         onClick: () => ({}),
-        subMenuBarItemLabel:
-          '1.  Yes. It adheres to the WAI-ARIA design pattern.',
+        subMenuBarItemLabel: '1.  Item 1',
       },
     ],
   },
@@ -74,14 +73,12 @@ export const menuBarItems: MenuBarItem[] = [
       {
         route: '/',
         onClick: () => ({}),
-        subMenuBarItemLabel:
-          '1.  Yes. It adheres to the WAI-ARIA design pattern.',
+        subMenuBarItemLabel: '1.  Item 1',
       },
       {
         route: '/',
         onClick: () => ({}),
-        subMenuBarItemLabel:
-          '2.  Yes. It adheres to the WAI-ARIA design pattern.',
+        subMenuBarItemLabel: '2.  Item 2',
       },
     ],
   },

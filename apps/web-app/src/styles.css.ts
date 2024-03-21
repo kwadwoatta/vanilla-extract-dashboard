@@ -1,4 +1,4 @@
-import { fonts, vars } from '@prince-assessment/styles';
+import { fonts, vars } from '@/styles';
 import { globalFontFace, globalStyle } from '@vanilla-extract/css';
 
 /* You can add global styles to this file */

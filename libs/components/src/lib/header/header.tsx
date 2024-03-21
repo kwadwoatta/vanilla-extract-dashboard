@@ -1,4 +1,4 @@
-import { fontStyles } from '@prince-assessment/styles';
+import { fontStyles } from '@/styles';
 import { ReactComponent as AddSvg } from './assets/add.svg';
 import { ReactComponent as ChevronLeftSvg } from './assets/chevron-left.svg';
 import { ReactComponent as ChevronRightSvg } from './assets/chevron-right.svg';

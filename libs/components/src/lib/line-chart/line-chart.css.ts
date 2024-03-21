@@ -1,4 +1,4 @@
-import { fontStyles, vars } from '@prince-assessment/styles';
+import { fontStyles, vars } from '@/styles';
 import { style } from '@vanilla-extract/css';
 
 export const button = style({

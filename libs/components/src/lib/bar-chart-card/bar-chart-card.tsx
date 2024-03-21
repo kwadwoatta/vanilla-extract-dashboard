@@ -1,4 +1,4 @@
-import { fontStyles, vars } from '@prince-assessment/styles';
+import { fontStyles, vars } from '@/styles';
 import { StackedBarChart } from '../stacked-bar-chart/stacked-bar-chart';
 import { ReactComponent as ChevronDownSvg } from './assets/chevron-down.svg';
 import {

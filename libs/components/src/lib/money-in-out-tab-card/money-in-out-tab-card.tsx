@@ -1,4 +1,4 @@
-import { fontStyles, vars } from '@prince-assessment/styles';
+import { fontStyles, vars } from '@/styles';
 import { ReactNode } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../tab';
 import { Table } from '../table';

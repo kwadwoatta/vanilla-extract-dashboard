@@ -15,40 +15,28 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@prince-assessment/components/accordion": [
-        "libs/components/src/lib/accordion/index.ts"
-      ],
-      "@prince-assessment/components/menu-bar": [
-        "libs/components/src/lib/menu-bar/index.ts"
-      ],
-      "@prince-assessment/components/header": [
-        "libs/components/src/lib/header/index.ts"
-      ],
-      "@prince-assessment/components/recents": [
-        "libs/components/src/lib/recents/index.ts"
-      ],
-      "@prince-assessment/components/tab": [
-        "libs/components/src/lib/tab/index.ts"
-      ],
-      "@prince-assessment/components/money-in-out-tab-card": [
+      "@/components/accordion": ["libs/components/src/lib/accordion/index.ts"],
+      "@/components/menu-bar": ["libs/components/src/lib/menu-bar/index.ts"],
+      "@/components/header": ["libs/components/src/lib/header/index.ts"],
+      "@/components/recents": ["libs/components/src/lib/recents/index.ts"],
+      "@/components/tab": ["libs/components/src/lib/tab/index.ts"],
+      "@/components/money-in-out-tab-card": [
         "libs/components/src/lib/money-in-out-tab-card/index.ts"
       ],
-      "@prince-assessment/components/table": [
-        "libs/components/src/lib/table/index.ts"
-      ],
-      "@prince-assessment/components/line-chart": [
+      "@/components/table": ["libs/components/src/lib/table/index.ts"],
+      "@/components/line-chart": [
         "libs/components/src/lib/line-chart/index.ts"
       ],
-      "@prince-assessment/components/doughnut-chart": [
+      "@/components/doughnut-chart": [
         "libs/components/src/lib/doughnut-chart/index.ts"
       ],
-      "@prince-assessment/components/sales-and-purchases-card": [
+      "@/components/sales-and-purchases-card": [
         "libs/components/src/lib/sales-and-purchases-card/index.ts"
       ],
-      "@prince-assessment/components/bar-chart-card": [
+      "@/components/bar-chart-card": [
         "libs/components/src/lib/bar-chart-card/index.ts"
       ],
-      "@prince-assessment/styles": ["libs/styles/src/index.ts"]
+      "@/styles": ["libs/styles/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

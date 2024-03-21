@@ -1,5 +1,5 @@
-// import { black '@prince-assessment/style';
-import { vars } from '@prince-assessment/styles';
+// import { black '@/style';
+import { vars } from '@/styles';
 import { keyframes, style } from '@vanilla-extract/css';
 
 export const slideDown = keyframes({

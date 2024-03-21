@@ -1,4 +1,4 @@
-import { fontStyles } from '@prince-assessment/styles';
+import { fontStyles } from '@/styles';
 import {
   accountDisplayContainer,
   accountSelectorContainer,

@@ -1,4 +1,4 @@
-import { vars } from '@prince-assessment/styles';
+import { vars } from '@/styles';
 import { style } from '@vanilla-extract/css';
 
 export const elevatedButton = style({

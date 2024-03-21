@@ -26,7 +26,7 @@ export const fonts: Fonts = {
     fallback: `-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
     file: `${FONT_DIR}/Manrope[wght].ttf`,
     format: `truetype-variations`,
-    metrics: manropeFontMetrics,
+    metrics: manropeFontMetrics as FontMetrics,
     name: `Manrope`,
     wghtRange: `200 800`,
     wghts: {

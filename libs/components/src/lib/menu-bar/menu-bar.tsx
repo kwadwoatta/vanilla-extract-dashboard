@@ -6,8 +6,8 @@ import {
   accordionPrimitiveRootStyle,
   AccordionTrigger,
   chevronDownIconStyle,
-} from '@prince-assessment/components/accordion';
-import { fontStyles } from '@prince-assessment/styles';
+} from '@/components/accordion';
+import { fontStyles } from '@/styles';
 import { ReactNode } from 'react';
 import AccountSelector from '../account-selector/account-selector';
 

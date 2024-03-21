@@ -1,20 +1,20 @@
+import { fontStyles, vars } from '@/styles';
 import { faker } from '@faker-js/faker';
-import { fontStyles, vars } from '@prince-assessment/styles';
 import { ReactComponent as ChevronDownSvg } from './assets/chevron-down.svg';
 import { ReactComponent as SuccessArrowSvg } from './assets/success-arrow.svg';
 
 import {
   CategoryScale,
-  Chart as ChartJS,
   ChartData,
+  Chart as ChartJS,
   CoreChartOptions,
   DatasetChartOptions,
   ElementChartOptions,
   Filler,
   Legend,
-  LinearScale,
   LineControllerChartOptions,
   LineElement,
+  LinearScale,
   PluginChartOptions,
   PointElement,
   ScaleChartOptions,

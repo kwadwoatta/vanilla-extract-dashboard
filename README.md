@@ -2,21 +2,21 @@
 
 **Design File ->.** [Design file](https://www.figma.com/file/ogmqYR5Quhaz71cRo58I8c/assessment-design-file?node-id=0%3A46)
 
-### About this repo
+## About this repo
 
 ```sh
 prince-assessment/
 ├── apps                        
-|   └── web-app                 # Webstie
+|   └── web-app                 # Website
 |
 └── libs/
     └── components/
         └── src/
-            └── lib/            # Components for @prince-assessment/components package
+            └── lib/            # Components for @/components package
                 └── [component] # Individual components
 ```
 
-### Libraries
+## Libraries
 
 🧰 &nbsp; [NX](https://nx.dev/) — Monorepo manager
 
@@ -34,7 +34,7 @@ prince-assessment/
 
 ```sh
 # install packages
-yarn install
+pnpm install
 
 # to run
-npx nx run web-app:serve 
+ pnpm exec nx run web-app:serve
