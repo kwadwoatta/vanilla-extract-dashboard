@@ -5,7 +5,7 @@
 ## About this repo
 
 ```sh
-prince-assessment/
+vanilla-extract-dashboard/
 ├── apps                        
 |   └── web-app                 # Website
 |
