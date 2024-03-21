@@ -1,6 +1,6 @@
-# 📝 UI dashboard exploration with NX, Vanilla Extract & Radix UI
+# 📝 Exploring dashboard styling with Vanilla Extract
 
-**Design File ->.** [Design file](https://www.figma.com/file/ogmqYR5Quhaz71cRo58I8c/assessment-design-file?node-id=0%3A46)
+**Design File ->** [Design file](https://www.figma.com/file/qVnSyRyvmpCIIimDiRl96y/dashboard-ui-vanilla-extract?type=design&node-id=0-1&mode=design)
 
 ## About this repo
 
